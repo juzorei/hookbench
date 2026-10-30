@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hookbench"
+version = "0.1.0"
+description = "Webhook integration testing: capture webhooks, verify HMAC signatures, replay fixtures at your handler — stdlib only"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "juzorei" }]
+keywords = ["webhooks", "hmac", "testing", "integration", "agent-skills"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Testing",
+]
+
+[project.urls]
+Homepage = "https://github.com/juzorei/hookbench"
+
+[project.scripts]
+hookbench = "hookbench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

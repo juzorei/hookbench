@@ -1,0 +1,21 @@
+{
+  "name": "hookbench",
+  "owner": {
+    "name": "juzorei"
+  },
+  "metadata": {
+    "description": "Webhook integration testing: capture, verify HMAC signatures, replay fixtures",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "hookbench",
+      "description": "Capture webhooks as fixtures, verify HMAC signatures (raw and timestamped schemes), replay at your handler while developing",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/webhook-integration-testing"
+      ]
+    }
+  ]
+}

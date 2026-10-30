@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+testpaths = ["tools/hookbench/tests", "skills"]
+pythonpath = ["tools/hookbench/src"]
+python_files = ["test_*.py"]
