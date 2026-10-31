@@ -26,6 +26,16 @@ pip install hookbench
 npx skills add juzorei/hookbench
 ```
 
+## Ещё из портфеля
+
+Один из серии прицельных наборов «скилл + CLI» одного автора:
+
+- [harrecon](https://github.com/juzorei/harrecon) — захвати API-часть той же интеграции
+- [ci-autopsy](https://github.com/juzorei/ci-autopsy) — обработчики вебхуков в CI падают как всё остальное
+- [loglens](https://github.com/juzorei/loglens) — что лог доставки говорит, когда никто не смотрит
+
+Остальные — в [профиле juzorei](https://github.com/juzorei?tab=repositories).
+
 ## Рамки
 
 Захват и реплей вебхуков интеграций, которыми ты владеешь или уполномочен тестировать.

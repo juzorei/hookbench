@@ -30,6 +30,16 @@ pip install hookbench
 npx skills add juzorei/hookbench
 ```
 
+## More from this portfolio
+
+Part of a series of focused skill+CLI tools by the same author:
+
+- [harrecon](https://github.com/juzorei/harrecon) — capture the API side of the same integration
+- [ci-autopsy](https://github.com/juzorei/ci-autopsy) — webhook handlers fail in CI like everything else
+- [loglens](https://github.com/juzorei/loglens) — what the delivery log says when nobody watches
+
+Browse the rest at the [juzorei profile](https://github.com/juzorei?tab=repositories).
+
 ## Scope
 
 Capture and replay webhooks for integrations you own or are authorized to test. This tool verifies signatures; it never helps forge one for a secret you don't hold.
